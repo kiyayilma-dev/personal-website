@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Kiya Yilma</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+        <p><strong>Kiya Yilma</strong></p>
+        <p><em>I welcome questions, ideas, feedback, and opportunities to connect.</em></p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <h2>Explore My Website</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills & Education</a></li>
+            <li><a href="projects.html">Projects & Achievements</a></li>
+            <li><a href="media.html">My Media & Interests</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <main>
+        
+        <section>
+            <h2>My contact information.</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:kiyayilma1@gmail.com">kiyayilma1@gmail.com</a></li>
+                <li><strong>Phone:</strong> <a href="tel:+251933042712">+251 933 042 712</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kiya-yilma-61a301302" target="_blank">linkedin.com/in/kiya-yilma</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/kiyayilma-dev" target="_blank">github.com/kiyayilma-dev</a></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Send Me a Message</h2>
+            <p>Please fill out the form below. Fields marked with <strong>*</strong> are required.</p>
+            
+            <form action="#" method="POST">
+                
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <p>
+                        <label for="fullname">Full Name: *</label><br>
+                        <input type="text" id="fullname" name="fullname" required minlength="2" maxlength="50" placeholder="Enter your full name">
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address: *</label><br>
+                        <input type="email" id="email" name="email" required placeholder="you@example.com">
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9+\-\s]{10,15}" placeholder="+251 9XX XXX XXX">
+                    </p>
+
+                    <p>
+                        <label for="website">Your Website:</label><br>
+                        <input type="url" id="website" name="website" placeholder="https://example.com">
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Message Details</legend>
+
+                    <p>
+                        <label for="subject">Subject: *</label><br>
+                        <select id="subject" name="subject" required>
+                            <option value="">-- Select a subject --</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="collaboration">Project Collaboration</option>
+                            <option value="feedback">Website Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="source">How did you find my website?</label><br>
+                        <select id="source" name="source">
+                            <option value="search">Search Engine</option>
+                            <option value="social">Social Media</option>
+                            <option value="friend">Friend or Colleague</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">Your Message: *</label><br>
+                        <textarea id="message" name="message" rows="6" cols="50" required minlength="10" maxlength="500" placeholder="Write your message here..."></textarea>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Optional Information</legend>
+
+                    <p>
+                        <label for="contact-date">Preferred Contact Date:</label><br>
+                        <input type="date" id="contact-date" name="contact_date">
+                    </p>
+
+                    <p>
+                        <label for="rating">Rate My Website (1–10):</label><br>
+                        <input type="number" id="rating" name="rating" min="1" max="10" value="5">
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="reply" name="reply" value="yes">
+                        <label for="reply">I would like a reply to my message.</label>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <p>
+                    <input type="submit" value="Submit Message">
+                    <input type="reset" value="Clear Form">
+                </p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Kiya Yilma. Personal website. Thank you for visiting.</p>
+        <p><a href="index.html">Return to Home</a></p>
+    </footer>
+
+</body>
+</html>
